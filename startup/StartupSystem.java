@@ -10,6 +10,10 @@ import java.io.ObjectOutputStream;
 import moviesData.*;
 import System.ManageMovies;
 import System.TicketSale;
+import java.awt.*;
+import java.awt.event.*;  
+import javax.swing.*;  
+
 
 /**
  * Classe StartupSystem: Ela gerencia todo o sistema
@@ -29,6 +33,9 @@ public class StartupSystem {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+                
+                Interface projetoCOO = new Interface();
+
 		System.out.println("\t** Cine & Pipoca ***");
 		downloadData();
 		
